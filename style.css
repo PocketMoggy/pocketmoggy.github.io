@@ -1,0 +1,86 @@
+h1
+{
+	color: darkorchid;
+	align-content: center;
+}
+h2
+{
+	color: mediumvioletred;
+	align-content: center;
+}
+
+h3 { 
+	color: blueviolet;
+	size: 10px;
+	margin:round;
+	 }
+h4 { 
+
+color: steelblue; }
+
+body 
+{
+	color: black;
+	background-color: black;
+	font-style: bold ;
+	font-family: monospace;
+	font-size: large;
+
+}
+#text
+{
+	width: 800px;
+	margin: 0 auto;
+	background-color: floralwhite;
+	text-align: center;
+	align-content: center;
+}
+img 
+{
+	width: 400px;
+
+
+}
+
+html
+{ font-style: normal;
+ }
+
+ button
+ { background-color:aliceblue; 
+ 	border: 0;
+ 	color: black;
+ 	position: relative;
+ 	overflow: hidden;
+ 	padding: 20px 50px;
+ 	border-radius: 30px;
+ 	font-size: 0.8em;
+ 
+ }
+
+ button::after { 
+ 	width: 400px;
+ 	height: 400px;
+ 	background-color: black;
+ 	top: -50px;
+ 	left: -100px;
+ 	z-index: -1;
+ }
+
+ #lien
+ { text-align:center; }
+
+ #menu {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  width: 12em;
+  height: 13em;
+  margin-top: -2.5em;
+  background : linear-gradient(225deg,#27d86c 0%, #26caf8 50%, #c625d0 100%);
+ 	border-radius: 30px;
+}
+
+body {
+	bottom: 100px;
+}
